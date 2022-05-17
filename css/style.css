@@ -13,6 +13,7 @@ html {
   background-image: url(../img/bg-white.jpg);
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 }
 nav {
   display: flex;
@@ -53,7 +54,13 @@ nav ul li a:hover {
   color: #54a729;
   transition: 0.4s;
 }
+
+
 /* Body start here */
+[class ^= "title-"]{
+  width: 100px;
+}
+
 .content {
   position: absolute;
   top: 50%;
